@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ទំព័រដើម</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600&family=Kantumruy+Pro&family=Titillium+Web&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        * {
+            font-family: 'Kantumruy Pro', sans-serif;
+        }
+        #ads-section {
+            display: flex;
+            gap: 280px;
+            background-color: black;
+            width: 100%;
+            height: 140px;
+            position: relative;
+        }
+        #image-slogan {
+            position: absolute;
+            top: 7px;
+        }
+        #image-ads {
+            position: absolute;
+            top: 7px;
+            right: 7px;
+        }
+        .nav {
+            list-style: none;
+            background-color: whitesmoke;
+            padding: 10px;
+            margin-top: 0px;
+        }
+        .nav li {
+            display: inline-block;
+        }
+        #service-heading {
+            text-align: center;
+            font-size: 35px;
+        }
+        #para-heading {
+            text-align: center;
+        }
+        #service-content {
+            width: 100%;
+            height: 700px;
+            background-color: whitesmoke;
+        }
+        #main-content {
+            margin-top: 50px;
+        }
+        #text-heading {
+            padding-top: 30px;
+        }
+        #service-icon {
+            height: 400px;
+            width: 60%;  
+            position: relative;
+            left: 20%;
+            margin-top: 50px;
+        }
+        .item {
+            display: inline-block;
+            width: 375px;
+            height: 200px;
+            text-align: center;
+        }
+        i {
+            color: purple;
+            font-size: 100px;
+        }
+        #iframe-projects {
+            height: 1500px;
+            width: 83%;
+            position: relative;
+            left: 170px;
+            margin-top: 50px;
+        }
+        .iframe-item {
+            display: inline-block;
+            height: 500px;
+            width: 782px;
+            text-align: center;
+        }
+        iframe {
+            height: 480px;
+            width: 755px;
+            border-radius: 15px;
+        }
+        #technology-used {
+            height: 800px;
+            width: 80%;
+            position: relative;
+            left: 190px;
+            margin-top: 50px;
+        }
+        .tech-pic {
+            display: inline-block;
+            height: 300px;
+            width: 500px;
+            text-align: center;
+        }
+        .tech-pic > img {
+            border-radius: 15px;
+            width: 350px;
+        }
+        .row {
+            display: flex;
+            justify-content: center;
+            width: 70%;
+            height: 250px;
+            position: absolute;
+            left: 15%;
+            top: 100px;
+        }
+        #istad-logo > img {
+            width: 100px;
+            height: 100px;
+        }
+        .item-footer {
+            display: inline-block;
+            text-align: center;
+            width: 330px;
+            height: 250px;
+        }
+        .container {
+            background-color: #253c95;
+            position: relative;
+            margin-top: 100px;
+            height: 500px;
+            color: white;
+        }
+        #footer-ul {
+            list-style: none;
+        }
+        .footer-i {
+            font-size: 20px;
+        }
+        #iframe-follow {
+            width: 255px;
+            height: 130px;
+        }
+        #para-footer {
+            display: inline-block;
+            position: absolute;
+            left: 30%;
+            top: 370px;
+        }
+        @media (max-width: 768px) {
+            #ads-section {
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+            }
+            #image-slogan, #image-ads {
+                position: static;
+                margin: 10px 0;
+            }
+            .nav {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            #service-icon {
+                width: 100%;
+                left: 0;
+                text-align: center;
+            }
+            .item {
+                width: 100%;
+            }
+            #iframe-projects, #technology-used {
+                width: 100%;
+                left: 0;
+                text-align: center;
+            }
+            .iframe-item, .tech-pic {
+                width: 100%;
+            }
+            #footer-ul {
+                padding: 0;
+            }
+            .row {
+                flex-direction: column;
+                align-items: center;
+            }
+            #para-footer {
+                position: static;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <!-- advertisement section start here -->
+        <div id="ads-section">
+            <section id="Golpage-Cambodia">
+                <div id="image-slogan">
+                    <img src="/assets/gpt-slogan.png" alt="gpc-slogan">
+                </div>
+            </section>
+    
+            <section id="advertisement">
+                <div id="image-ads">
+                    <img src="/assets/advertisementjpg.jpg" alt="">
+                </div>
+            </section>
+        </div>
+        <!-- advertisement section end here -->
+
+        <!-- navigation bar start here -->
+        <nav id="nav-bar">
+            <ul class="nav">
+                <li><a href="index.html" target="_blank"><strong>ទំព័រដើម</strong></a></li>
+                <li><a href="index.html" target="_blank"><strong>ទំព័រដើម</strong></a></li>
+                <li><a href="/about.html" target="_blank"><strong>វិដីអូ</strong></a></li>
+                <li><a href="/function.html" target="_blank">មុខងារ</a></li>
+                <li><a href="https://istad.co/page/course/86dfaf6f-ce25-4dd7-911d-58215dada94b" target="_blank">តម្លៃ</a></li>
+                <li><a href="https://istad.co/enroll" target="_blank">ចុះឈ្មោះ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <!-- main content start here -->
+
+        <div id="service-content">
+            <section id="services">
+                <div id="text-heading">
+                    <h2 id="service-heading"><strong>សេវាកម្មរបស់សុីស្តាត</strong></h2>
+                    <p id="para-heading">ឥឡូវនេះ អ្នកអាចចាប់ផ្តើមជាមួយបណ្ណាល័យសមាសភាគប្រភពបើកចំហដែលត្រូវបានបង្កើតឡើងសម្រាប់ក្របខ័ណ្ឌ​<br>
+                        <br>ដូចជា React, Vue.js, Svelte និង​ Angular ។
+                    </p>
+                </div>
+                
+                <div id="service-icon">
+                    <div class="item">
+                        <p​ class="item-para"><i class="fa-solid fa-earth-americas"></i></p​>
+                        <h3 class="item-heading">សេវាកម្មគេហទំព័រ</h3>
+                    </div>
+                    <div class="item">
+                        <p​ class="item-para"><i class="fa-solid fa-plane-departure"></i></p​>
+                        <h3 class="item-heading">សេវាកម្មដឹកជញ្ជូន</h3>
+                    </div>
+                    <div class="item">
+                        <p​ class="item-para"><i class="fa-solid fa-cloud-showers-heavy"></i></p​>
+                        <h3 class="item-heading">ក្លោដទំនាក់ទំនង</h3>
+                    </div>
+                    <div class="item">
+                        <p​ class="item-para"><i class="fa-solid fa-unlock-keyhole"></i></p​>
+                        <h3 class="item-heading">សុវត្ថិភាពប្រព័ន្ធ</h3>
+                    </div>
+                    <div class="item">
+                        <p​ class="item-para"><i class="fa-solid fa-volume-low"></i></p​>
+                        <h3 class="item-heading">ឪបករណ៍បំពងសម្លេង</h3>
+                    </div>
+                    <div class="item">
+                        <p​ class="item-para"><i class="fa-solid fa-image"></i></p​>
+                        <h3 class="item-heading">ថតរូបកញ្ចប់</h3>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="student-projects">
+            <section id="projects">
+                <div id="text-heading">
+                    <h2 id="service-heading"><strong>គម្រោងបញ្ចប់ថ្នាក់សិក្សារបស់និស្សិតអាហារូបករណ៍</strong></h2>
+                    <p id="para-heading">នេះគឺជាស្នាដៃគម្រោងរបស់និស្សិតអាហារូបករណ៍ដែលជាគម្រោងដែលទើបទែបានបញ្ចប់វគ្គសិក្សាថ្មីៗនេះ កាលពី​<br>
+                        <br>ថ្ងៃទី ៨ ខែ សីហា ឆ្នាំ ២០២៣ ។
+                    </p>
+                </div>
+
+                <div id="iframe-projects">
+                    <div class="iframe-item">
+                        <iframe src="https://www.youtube.com/embed/bKjqwumfuo4" title="1. PortiSTAD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="iframe-item">
+                        <iframe width="1280" height="675" src="https://www.youtube.com/embed/mwz7mFOJ25s" title="Mr. Prem Leapheng - Data Scientist &amp; Machine Learning Engineer talk about Data Analytics" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="iframe-item">
+                        <iframe width="1239" height="697" src="https://www.youtube.com/embed/5B9vuG1AAVQ" title="ASMR with Lofi - Dribble to Android Master Card" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="iframe-item">
+                        <iframe width="1239" height="697" src="https://www.youtube.com/embed/V8WZ1TVTsAA" title="Why I choose to be a DevOps Engineer, from Mr.Heng Borchhay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="iframe-item">
+                        <iframe width="1239" height="697" src="https://www.youtube.com/embed/SQy5sUmK_OQ" title="iOS Developer, Ms. Hoeng Linghor talks about Mobile App Development" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="iframe-item">
+                        <iframe width="1239" height="697" src="https://www.youtube.com/embed/CkukosImhLI" title="Spring Framework Promotion" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="technology-used">
+            <section id="technology">
+                <div id="text-heading">
+                    <h2 id="service-heading"><strong></strong>បច្ចេកវិទ្យាដែលបានប្រើប្រាស់</h2>
+                    <p id="para-heading">បច្ចេកវិទ្យាដែលបានប្រើប្រាស់ក្នុងគេហទំព័រគម្រោងទាំងអស់នេះ</p>
+                    <br>
+                </div>
+
+                <div id="technology">
+                    <div class="tech-pic">
+                        <img src="/assets/js1.jpg" alt="javascript">
+                    </div>
+                    <div class="tech-pic">
+                        <img src="/assets/bootstrap.jpg" alt="bootstrap">
+                    </div>
+                    <div class="tech-pic">
+                        <img src="/assets/reactjs.jpg" alt="reactjs">
+                    </div>
+                    <div class="tech-pic">
+                        <img src="/assets/css.jpg" alt="css">
+                    </div>
+                    <div class="tech-pic">
+                        <img src="/assets/figma.jpg" alt="figma">
+                    </div>
+                    <div class="tech-pic">
+                        <img src="/assets/python.jpg" alt="python">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <!-- main content end here -->
+
+    <!-- footer start here -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div id="istad-logo" class="item-footer">
+                    <img src="/assets/istad.png" alt="istad">
+                    <p>Start your IT Career with ISTAD</p>
+                </div>
+                <div id="learn-more" class="item-footer">
+                    <p>Learn More</p>
+                    <ul id="footer-ul">
+                        <li>Course</li>
+                        <li>IT News</li>
+                        <li>Job Opportunity</li>
+                        <li>Privacy Policy</li>
+                        <li>FAQ</li>
+                    </ul>
+                </div>
+                <div id="contact-us" class="item-footer">
+                    <p>Contact Us</p>
+                    <ul id="footer-ul">
+                        <li><a href="tel:+85595990910" style="color: aqua;">(+855) 95-990-910</a></li>
+                        <li><a href="tel:+85593990910" style="color: aqua;">(+855) 95-990-910</a></li>
+                        <li><i class="fa-brands fa-telegram footer-i"></i>Telegram</li>
+                        <li><i class="fa-brands fa-youtube footer-i"></i>YouTube</li>
+                    </ul>
+                </div>
+                <div id="follow-us" class="item-footer">
+                    <p>Follow Us</p>
+                    <div id="iframe-follow">
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fistad.co&tabs=timeline&width=255&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="255" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                    </div>
+                </div>
+            </div> 
+            <div id="para-footer">
+                <hr>
+                <p>© 2023 Center of Technology and Advanced Technology. All rights reserved. </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
